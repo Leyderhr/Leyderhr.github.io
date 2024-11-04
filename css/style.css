@@ -65,6 +65,7 @@ body {
     max-width: 800px;
     margin: 0 auto;
     padding: 1rem;
+    text-align: justify;
     font: bold;
 }
 
@@ -123,7 +124,7 @@ li {
     border: 1px solid #ddd;
     border-radius: 5px;
     margin-bottom: 1.5rem;
-    text-align: center;
+    text-align: justify;
     filter: drop-shadow(0 0 10px rgba(0,0,0, .8));
     
 }
@@ -150,6 +151,7 @@ li {
     padding: 1rem 0;
     background-color: #272531;
     text-align: center;
+    border-bottom: 1px solid #696485;
 }
 
 .tech-list {
@@ -184,9 +186,10 @@ li {
 
 /* Pie de página */
 .footer {
-    border-top: 1px solid #696485;
+    max-width: 800px;
     text-align: center;
     padding: 1rem;
+    margin: 0 auto;
     background-color: #272531#333;
     color: #ffffff;
 }
