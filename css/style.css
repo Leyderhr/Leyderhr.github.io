@@ -25,6 +25,7 @@ body {
     gap: 1rem;
     justify-content: center;
     flex-wrap: wrap; /* Permite que los botones se acomoden en filas en pantallas pequeñas */
+
 }
 
 .nav-button {
@@ -35,7 +36,7 @@ body {
     border-radius: 5px;
     font-weight: bold;
     transition: background-color 0.3s;
-    
+    width: 9rem;
 }
 
 .nav-button:hover {
